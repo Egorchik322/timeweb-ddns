@@ -1,3 +1,5 @@
+danger навайбкожено gpt-5.5
+
 # Timeweb DDNS
 
 Docker service for automatic DNS A-record updates via Timeweb Cloud API.
