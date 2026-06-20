@@ -1,0 +1,9 @@
+services:
+  timeweb-ddns:
+    build: .
+    container_name: timeweb-ddns
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./state:/state
